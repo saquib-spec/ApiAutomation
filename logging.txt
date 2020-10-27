@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "AAhouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "World cross center",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Mon, 26 Oct 2020 13:26:21 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "fd9355bc5993d027dedb1671ea35cba3",
+    "scope": "APP",
+    "reference": "1a46e203628a30e0439fece62e76a61b1a46e203628a30e0439fece62e76a61b",
+    "id": "1a46e203628a30e0439fece62e76a61b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fd9355bc5993d027dedb1671ea35cba3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=fd9355bc5993d027dedb1671ea35cba3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Oct 2020 13:26:23 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 240
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "AAhouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "World cross center",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "saquib",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "1320 Saratoga Ave",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "urdu"
+}
+HTTP/1.1 200 OK
+Date: Mon, 26 Oct 2020 13:26:25 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "b7109fcf2c51bbe16ee4f9b4e468aa91",
+    "scope": "APP",
+    "reference": "2147ffa337520e439f95d8aea5732f832147ffa337520e439f95d8aea5732f83",
+    "id": "2147ffa337520e439f95d8aea5732f83"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=b7109fcf2c51bbe16ee4f9b4e468aa91
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=b7109fcf2c51bbe16ee4f9b4e468aa91
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Oct 2020 13:26:25 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 235
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "saquib",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "1320 Saratoga Ave",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "urdu"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "b7109fcf2c51bbe16ee4f9b4e468aa91"
+}
+HTTP/1.1 200 OK
+Date: Mon, 26 Oct 2020 13:26:27 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
