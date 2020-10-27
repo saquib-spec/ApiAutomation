@@ -75,7 +75,7 @@ public class stepDefnitions extends Utils {
 		String name = getjsonpath(response, "name");
 		assertEquals(name, string);
 		System.out.println(place_id);
-		
+		System.out.println(resourceApi.getResource());
 		
 	}
 	
